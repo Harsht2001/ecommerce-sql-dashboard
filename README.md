@@ -1,38 +1,37 @@
-# ecommerce-sql-dashboard
+# 🛒 E-commerce SQL Dashboard
 
-This is a beginner-friendly SQL dashboard project that explores key business metrics for a fictional e-commerce store.
+This project showcases SQL analytics skills by exploring a sample e-commerce dataset using structured queries and insights.
 
-🧾 Files
-ecommerce_dashboard.sql: Contains SQL queries to calculate metrics such as revenue, order volume, top customers, and product popularity.
+## 📂 Files
 
-📈 Metrics Covered
-Total Revenue
+- `schema.sql` → Table definitions (customers, orders, products, order_items)
+- `insert_data.sql` → Sample dataset
+- `queries.sql` → Analytical queries
+- `README.md` → Documentation
 
-Total Orders
+## 📊 Sample Insights
 
-Average Order Value
+- Total revenue
+- Monthly revenue trends
+- Top 5 customers by spending
+- Most popular products by quantity sold
+- Products never ordered
 
-Number of Customers
+## 🚀 How to Run
 
-Revenue by Month
+1. Clone this repository
+2. Use [db-fiddle.com](https://www.db-fiddle.com/) or a local SQL environment (MySQL/PostgreSQL)
+3. Run the files in order: schema → insert_data → queries
 
-Top 5 Customers by Revenue
+## 💡 Why This Project?
 
-Most Popular Products
+This mini-project helps demonstrate:
+- Data modeling understanding
+- Writing SQL joins and aggregates
+- Using analytical functions and filters
 
-Customers with Repeat Orders
+Ideal for Data Engineering/Analytics portfolios!
 
-Revenue Trends (Last 7 Days)
+---
 
-🛠️ Tools Used
-SQL (MySQL-compatible syntax)
-
-DB Fiddle for testing
-
-
- How to Use
-Import the sample schema and data into your SQL environment.
-
-Run queries from ecommerce_dashboard.sql.
-
-Customize or extend the dashboard as needed.
+Made with ❤️ by Harsh Tyagi
