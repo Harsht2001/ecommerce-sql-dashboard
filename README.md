@@ -17,6 +17,10 @@ This project showcases SQL analytics skills by exploring a sample e-commerce dat
 - Most popular products by quantity sold
 - Products never ordered
 
+- ### 📊 Sample Output: Top 5 Customers by Revenue
+![Top Customers](https://github.com/Harsht2001/ecommerce-sql-dashboard/blob/main/top_customers_screenshot.png)
+
+
 ## 🚀 How to Run
 
 1. Clone this repository
